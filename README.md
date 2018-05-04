@@ -1,3 +1,5 @@
+This lets you load your calendar into a SQLite database. It is very crappy and for demo purposes.
+
 - Download your calendar, move it here to this folder, and rename it `basic.ics`
 
 Do these things
