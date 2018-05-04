@@ -1,0 +1,9 @@
+\#*
+.\#*
+*.ics
+*.db*
+*wal
+*.csv
+*node_modules
+*~
+

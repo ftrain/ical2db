@@ -1,0 +1,34 @@
+{
+  "name": "agency",
+  "version": "1.0.0",
+  "description": "shell, progressbar, etc",
+  "main": "index.js",
+  "dependencies": {
+    "@nodemailer/mailparser2": "^1.0.3",
+    "better-sqlite3": "^4.1.0",
+    "catchall": "0.0.4",
+    "compromise": "^11.2.3",
+    "graceful-fs": "^4.1.11",
+    "ical.js": "^1.2.2",
+    "json-stream-formatter": "^0.0.9",
+    "maildir-scan": "^1.1.0",
+    "performance-now": "^2.1.0",
+    "sqlite3": "^3.1.13",
+    "walk": "^2.3.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "maildir": "npm maildir.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftrain/agency.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ftrain/agency/issues"
+  },
+  "homepage": "https://github.com/ftrain/agency#readme"
+}
