@@ -1,34 +1,63 @@
 {
-  "name": "agency",
+  "name": "ical2db",
   "version": "1.0.0",
-  "description": "shell, progressbar, etc",
-  "main": "index.js",
+  "description": "This lets you load your calendar into a SQLite database. It is very crappy and for demo purposes.",
+  "main": "ical2db.js",
   "dependencies": {
-    "@nodemailer/mailparser2": "^1.0.3",
-    "better-sqlite3": "^4.1.0",
-    "catchall": "0.0.4",
+    "cryptiles": "^2.0.5",
     "compromise": "^11.7.0",
-    "graceful-fs": "^4.1.11",
+    "debug": "^2.6.9",
+    "ecc-jsbn": "^0.1.1",
+    "form-data": "^2.1.4",
+    "generate-object-property": "^1.2.0",
+    "he": "^1.1.1",
+    "hoek": "^2.16.3",
     "ical.js": "^1.2.2",
-    "json-stream-formatter": "^0.0.9",
-    "maildir-scan": "^1.1.0",
-    "performance-now": "^2.1.0",
+    "iconv-lite": "^0.4.19",
+    "inherits": "^2.0.3",
+    "integer": "^1.0.3",
+    "is-property": "^1.0.2",
+    "is-typedarray": "^1.0.0",
+    "isarray": "^1.0.0",
+    "isexe": "^1.1.2",
+    "isstream": "^0.1.2",
+    "jsbn": "^0.1.1",
+    "js-yaml": "^3.10.0",
+    "json-stringify-safe": "^5.0.1",
+    "json-schema": "^0.2.3",
+    "jsonpointer": "^4.0.1",
+    "libbase64": "^0.1.0",
+    "lcov-parse": "^0.0.10",
+    "libmime": "^3.1.0",
+    "libqp": "^1.1.0",
+    "log-driver": "^1.2.5",
+    "lzz-gyp": "^0.4.2",
+    "mailsplit": "^4.0.2",
+    "marked": "^0.3.6",
+    "mime-db": "^1.30.0",
+    "mime-types": "^2.1.17",
+    "minimist": "^0.0.10",
+    "minimatch": "^3.0.4",
+    "mkdirp": "^0.3.5",
+    "ms": "^2.0.0",
+    "nan": "^2.7.0",
+    "node-fs": "^0.1.7",
+    "boom": "^2.10.1",
     "sqlite3": "^3.1.13",
     "walk": "^2.3.13"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "maildir": "npm maildir.js"
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftrain/ical2db.git"
   },
   "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ftrain/agency.git"
-  },
   "bugs": {
-    "url": "https://github.com/ftrain/agency/issues"
+    "url": "https://github.com/ftrain/ical2db/issues"
   },
-  "homepage": "https://github.com/ftrain/agency#readme"
+  "homepage": "https://github.com/ftrain/ical2db#readme"
 }
