@@ -4,7 +4,7 @@ Do these things
 - `npm install`
 - `node ical2db.js|sqlite3 calendar.db`
 - `cat calendar.sql|sqlite3 calendar.db`
-- `cat hrs.sql|sqlite calendar3.db`
+- `cat hrs.sql|sqlite3 calendar.db`
 - `datasette calendar.db`
 
-You may need to pip install datasette.
+You may need to `pip install datasette`.
